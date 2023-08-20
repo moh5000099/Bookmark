@@ -1,0 +1,38 @@
+<html lang="en">
+    <head>
+        <title>Assignment 9</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <section class="mt-5">
+            <div class="container px-0">
+                <h1 class="text-muted fw-bold ms-3 my-5">Bookmarker</h1>
+                <hr> 
+            </div>
+            <div class="container form px-m-5">
+                <div class="container text-center p-5 bg-dark bg-opacity-10 rounded-3">
+                    <h3 class="my-4 fw-bold">Bookmark your favorite sites</h3>
+                    <h6 class="mt-3">Site Name</h6>
+                    <input type="text" class="form-control" id="bookNameI" placeholder="Bookmark Name">
+                    <h6 class="alert alert-danger fw-bold p-2 mt-2"></h6>
+                    <h6 class="mt-3">Site URL</h6>
+                    <input type="text" class="form-control" id="bookUrlI" placeholder="website URL">
+                    <h6 class="alert alert-danger fw-bold p-2 mt-2"></h6>
+                    <button class="btn btn-primary my-3" id="submit">Submit</button>
+                    <input type="text" onkeyup="search(this.value)" class="form-control mx-auto w-75 mt-3" placeholder="Search by Name...">
+                </div>
+                <div id="booksList"></div>
+            </div>
+            <div class="container my-3 px-0">
+                <hr> 
+                <h6 class="text-muted fw-bold ms-3 mb-5">© Mohamed Magdy 2019 Bookmarker Inc.</h6>
+            </div>
+        </section>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

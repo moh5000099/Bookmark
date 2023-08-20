@@ -1,0 +1,16 @@
+button:hover , a:hover{
+    box-shadow: 5px 5px 10px black;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    border-color: transparent !important;
+}
+.item{
+    background-image: linear-gradient(rgba(0,0,0,0.15),transparent)
+}
+
+.alert-danger{
+    display: none;
+}
+.heightlight span{
+    color: yellowgreen;
+    font-weight: bolder;
+}
